@@ -19,6 +19,12 @@ These sources provide reliable and timely data on energy production, consumption
 
 ## 📂 Repository Structure
 
+- **`data/`** – Contains all datasets.
+  - **`raw/`** – Original files downloaded from the data sources.  
+  - **`processed/`** – Databases processed and transformed using Python scripts in `src/`.
+- **`report/`** – Contains all analysis outputs in PDF format.
+- **`src/`** – Contains Python code, scripts, assets, and utilities used for data processing and analysis.
+
 ## US Petroleum Stocks
 
 This folder focuses on analyzing U.S. petroleum stock levels, including crude oil and its derivatives.
